@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".ProfileActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#242526"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/btnTheloai"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24"
+            android:background="#242526"/>
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            android:background="#242526"
+            android:onClick="gotoHome"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imglink"
+            android:layout_width="125dp"
+            android:layout_height="138dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/voluyendinhphong"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="136dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="13dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:text="Tên đăng nhập:"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="153dp"
+                android:gravity="bottom"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_email"
+                android:text="  Email:"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="191dp"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock"
+                android:text="  Mật khẩu:"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="230dp"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:paddingTop="6dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:layout_marginLeft="10dp">
+
+            <EditText
+                android:id="@+id/txtTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lê Trọng Phước"
+                android:textSize="15dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đang cập nhật"
+                tools:layout_editor_absoluteX="258dp"
+                tools:layout_editor_absoluteY="191dp"
+                android:paddingTop="16dp"
+                android:textSize="15dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/tvPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thể loại truyện"
+                tools:layout_editor_absoluteX="258dp"
+                tools:layout_editor_absoluteY="230dp"
+                android:paddingTop="19dp"
+                android:textSize="15dp"
+                android:layout_marginRight="30dp"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Lưu thông tin"
+            android:textSize="11dp"
+            android:background="@drawable/bg_btn_custom2"
+            android:padding="7dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="gotoUd"/>
+
+        <Button
+            android:id="@+id/btnDangxuat"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_btn_custom2"
+            android:onClick="gotologin"
+            android:padding="7dp"
+            android:text="Đăng xuất"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

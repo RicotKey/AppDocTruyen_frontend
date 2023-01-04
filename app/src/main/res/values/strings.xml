@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppFairyStories</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="welcome">"Chào mừng !"</string>
+    <string name="invalid_username">Tên đăng nhập này không tồn tại</string>
+    <string name="invalid_password">Mật khẩu phải hơn 5 kí tự</string>
+    <string name="login_failed">"Đăng nhập thất bại"</string>
+    <string name="text_signin_message">FairyStories</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="text_forgot_password">Quên mật khẩu?</string>
+    <string name="button_sign_in">Đăng nhập</string>
+    <string name="text_signin_social_media">Hoặc, bạn có thể đăng nhập bằng</string>
+    <string name="text_signin_signup">Bạn chưa có tài khoản? <b>Đăng kí</b></string>
+    <string name="hint_timkiem">Tìm kiếm truyện...</string>
+</resources>

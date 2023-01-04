@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListenActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtChuong"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Chương ..."
+        android:textSize="15dp"
+        android:textColor="#006682"
+        android:gravity="center"
+        android:background="#EFEFEF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/banner"
+            android:layout_marginTop="100dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_play"
+                android:drawableLeft="@drawable/ic_play"
+                android:gravity="center"
+                android:onClick="playAction"
+                android:background="@drawable/bg_theloai"
+                android:paddingLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btnPause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_pause_"
+                android:drawableLeft="@drawable/ic_pause_"
+                android:onClick="pauseAction"
+                android:background="@drawable/bg_theloai"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_stop_"
+                android:drawableLeft="@drawable/ic_stop_"
+                android:onClick="stopAction"
+                android:background="@drawable/bg_theloai"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:background="#006682">
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:background="#006682"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_arrow_left"
+                android:drawableLeft="@drawable/ic_arrow_left"
+                android:background="@drawable/bg_next"
+                android:paddingLeft="12dp"
+                android:layout_marginRight="3dp"/>
+
+            <Button
+                android:id="@+id/btnChapter"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_baseline_format_list_numbered_24"
+                android:drawableLeft="@drawable/ic_arrow_left"
+                android:text="chapter"
+                android:background="@drawable/bg_chapter"
+                android:paddingLeft="5dp"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_arrow_right"
+                android:drawableLeft="@drawable/ic_arrow_right"
+                android:background="@drawable/bg_next"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="3dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

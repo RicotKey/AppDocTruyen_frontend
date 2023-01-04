@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+   >
+
+    <RelativeLayout
+        android:id="@+id/TopBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#242526"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+
+
+
+        <ImageButton
+            android:id="@+id/btnTheloai"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24"
+            android:background="#242526"
+            android:onClick="gotoTheloai"/>
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/ic_profile"
+            android:background="#242526"
+            android:onClick="gotoProfile"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtTimkiem"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/bg_search_shape"
+            android:drawablePadding="12dp"
+            android:hint="@string/hint_timkiem"
+            android:hyphenationFrequency="none"
+            android:imeOptions="actionNext"
+            android:minWidth="450dp"
+            android:minHeight="50dp"
+            android:paddingLeft="10dp"
+            android:selectAllOnFocus="true"
+
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="7dp"
+            android:background="#242526"
+            android:foregroundGravity="center"
+            android:onClick="btnSearch"
+            app:srcCompat="@drawable/pngegg" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/banner" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/lbHot"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:text="Truyện Hot"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_truyenhot"/>
+
+    <GridView
+        android:id="@+id/gdvDSTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:numColumns="3">
+
+    </GridView>
+
+    <EditText
+        android:id="@+id/lbNew"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:text="Truyện New"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_truyenhot"/>
+
+    <GridView
+        android:id="@+id/gdvDSTruyenMoi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:numColumns="3"
+        >
+    </GridView>
+
+</LinearLayout>

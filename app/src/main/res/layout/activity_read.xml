@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtChuong"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Chương ..."
+        android:textSize="15dp"
+        android:textColor="#006682"
+        android:gravity="center"
+        android:background="#EFEFEF"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtnoidung"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình.
+Tuần trước em có dịp tham quan biển Phan Thiết. Cảnh nơi đây rất đẹp. Những hàng dừa trải dài xanh ngắt nằm dọc bờ biển. Giữa biển có một bãi cát trắng dẫn thẳng vào các tòa nhà nghỉ của khách du lịch, sau tòa nhà là những dãy núi tim tím. Xa xa trên mặt biển, có những chiếc thuyền chở khách du lịch đi thăm quan. Cảnh vật ở biển Phan Thiết thật yên bình. Em yêu cảnh biển nơi đây, và cũng yêu đất nước Việt Nam của mình"
+
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:background="#006682">
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:background="#006682"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="37dp"
+            android:onClick="gotoHome"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_arrow_left"
+                android:drawableLeft="@drawable/ic_arrow_left"
+                android:background="@drawable/bg_next"
+                android:paddingLeft="12dp"
+                android:layout_marginRight="3dp"
+                android:onClick="gotoChapTrc"/>
+
+            <Button
+                android:id="@+id/btnChapter"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_baseline_format_list_numbered_24"
+                android:drawableLeft="@drawable/ic_arrow_left"
+                android:text="chapter"
+                android:background="@drawable/bg_chapter"
+                android:paddingLeft="5dp"
+                android:onClick="gotoChapter"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_arrow_right"
+                android:drawableLeft="@drawable/ic_arrow_right"
+                android:background="@drawable/bg_next"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="3dp"
+                android:onClick="gotoChapSau"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnListen"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_headphones"
+            android:drawableLeft="@drawable/ic_headphones"
+            android:background="#006682"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="27dp"
+            android:onClick="gotoListen"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
